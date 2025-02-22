@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Todo List</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Your Todo List</h2>
+        
+        <div class="todo-input">
+            <input type="text" id="todoInput" placeholder="Add a new todo">
+            <button onclick="addTodo()">Add Todo</button>
+        </div>
+
+        <div id="todoList">
+            <!-- List of todos will be displayed here -->
+        </div>
+
+        <p class="status-message">
+            Logged in successfully. 
+            <a href="login.html" onclick="logout(event)">Logout</a>
+        </p>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

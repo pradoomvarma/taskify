@@ -1,0 +1,99 @@
+/* General Reset */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #af8ef6, #9b7dd2);
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    background: rgba(248, 244, 244, 0.359);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    height: 320px;
+    text-align: center;
+  }
+
+/* Heading */
+h2 {
+    display: flex;
+    color: #6b21a8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Input Field */
+input {
+    width: 95%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background: #FFDFEF;
+    font-size: 16px;
+    color: #4c1d95;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #7c3aed;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6b21a8;
+}
+
+/* Todo List */
+#todoList {
+    margin-top: 15px;
+}
+
+.todo-item {
+    background: rgba(255, 255, 255, 0.3);
+    padding-top: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #4c1d95;
+    height: 28px;
+}
+
+/* Completed Todos */
+.todo-item.completed {
+    text-decoration: line-through;
+    color: #6b21a8;
+    opacity: 0.7;
+}
+
+/* Status Message */
+.status-message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: yellow;
+}
+
+.status-message a {
+    color: yellow;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.status-message a:hover {
+    text-decoration: underline;
+}
