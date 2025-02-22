@@ -29,4 +29,4 @@ The app allows users to **sign up, sign in, add todos, mark them as complete.**
 ### 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/pradoomvarma/taskify.git
-cd todo-list
+cd taskify
