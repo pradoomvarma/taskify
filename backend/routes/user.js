@@ -9,7 +9,7 @@ const userRouter = express.Router();
 // Signup
 userRouter.post("/signup", async (req, res) => {
     const { username, password } = req.body;
-    console.log("Request body:", req.body);
+    // console.log("Request body:", req.body);
 
     try {
         const existingUser = await userModel.findOne({ username });
